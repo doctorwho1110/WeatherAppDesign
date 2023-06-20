@@ -18,8 +18,8 @@ def get_data(days):
 
 def get_data_anil(X, y):
     data = pd.read_csv("happy.csv")
-    X_line=data[f"{X}"]
-    y_line=data[f"{y}"]
+    X_line = data[f"{X}"]
+    y_line = data[f"{y}"]
     return X_line, y_line
 
 
